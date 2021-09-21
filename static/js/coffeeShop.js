@@ -7,7 +7,6 @@ const addItemToCart = (itemName) => {
     </tr>
   `);
 };
-
 const resetCart = () => {
   $('#cart-total').html('0.00');
   $('#cart-items').empty();
